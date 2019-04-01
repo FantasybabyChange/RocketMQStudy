@@ -1,0 +1,22 @@
+*.class
+/target
+*/target
+/.settings
+/.settings/
+*/settings
+*/generated-sources
+/generated-sources
+generated-sources
+*.iml
+## Directory-based project format:
+.idea/
+.idea_modules/
+.gradle
+/logback
+**/log
+**/.classpath
+**/.project
+**/.settings
+/logs
+application-dev-local.yml
+**/src/main/resources/rebel.xml
