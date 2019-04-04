@@ -20,3 +20,4 @@ generated-sources
 /logs
 application-dev-local.yml
 **/src/main/resources/rebel.xml
+*/build
