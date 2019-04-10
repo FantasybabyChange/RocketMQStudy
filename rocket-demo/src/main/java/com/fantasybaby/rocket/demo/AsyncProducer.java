@@ -17,9 +17,9 @@ public class AsyncProducer {
 
         // Specify name server addresses.
         producer.setNamesrvAddr("192.168.20.222:9876");
-//        producer.setRetryTimesWhenSendAsyncFailed(0);
+        producer.setRetryTimesWhenSendAsyncFailed(0);
         //Launch the instance.
-        producer.setVipChannelEnabled(false);
+//        producer.setVipChannelEnabled(false);
         producer.start();
 
         Message msg = new Message("FantasyBabyTest",
